@@ -2,7 +2,7 @@
 
 * Студент: [Илюза Султанова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2101285).
 * Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
-
+* Сайт: [Проект Седона](https://ilyuzasultanova.github.io/2101285-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
