@@ -9,8 +9,8 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a href="index.html" class="logo">
-          <img class="logo-image" src="" alt="Логотип города Седона">
+        <a class="navigation-logo" href="index.html" aria-current="page">
+          <img class="navigation-logo-image" src="" alt="Логотип города Седона">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -50,10 +50,12 @@
     </header>
 
     <main class="main-index">
-      <h1 class="visually-hidden">
-        Приглашаем вас посетить Седону!
-      </h1>
-      <img class="" src="" alt="Welcome to the gorgeous Sedona. Because the Great Canyon sucks!">
+      <section class="hero">
+        <h1 class="visually-hidden">
+          Приглашаем вас посетить Седону!
+        </h1>
+        <img class="hero-image" src="images/welcome.png" alt="Welcome to the gorgeous Sedona. Because the Great Canyon sucks!">
+      </section>
       <section class="advantages">
         <h2 class="advantages-title">
           Седона — небольшой городок в Аризоне, заслуживающий большего!
@@ -69,6 +71,7 @@
             <p class="advantages-subtitle white-text">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
+            <img class="advantages-image" src="images/sedona-street.jpg" alt="Улица Седоны">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">
@@ -95,6 +98,7 @@
             </p>
           </li>
           <li class="advantages-item">
+            <img class="advantages-image" src="images/devils-bridge.jpg" alt="Мост дьявола">
             <h3 class="advantages-title white-text">
               Там есть мост дьявола
             </h3>
@@ -160,10 +164,10 @@
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="suscription-email">
-            Email
+          <label for="user-email">
+            Укажите ваш e-mail
           </label>
-          <input class="field" type="email" name="subscription-email" id="subscription-email" placeholder="Ваш e-mail" required>
+          <input class="field" type="email" name="user-email" id="user-email" placeholder="Ваш e-mail" required>
           <button class="button subscription-button" type="submit">
             Подписаться
           </button>
@@ -173,22 +177,22 @@
         <h2 class="visually-hidden">
           Наши социальные сети
         </h2>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
+        <ul class="social-list">
+          <li class="social-item">
             <a class="button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">
                 ВКонтакте
               </span>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="social-item">
             <a class="button" href="https://t.me/htmlacademy">
               <span class="visually-hidden">
                 Телеграм
               </span>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">
                 YouTube
@@ -196,21 +200,22 @@
             </a>
           </li>
         </ul>
-        <p class="visually-hidden">Сайт разработан
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            .html academy
-          </a>
-        </p>
       </section>
-      <section class="footer-contacts">
+      <section class="contacts">
         <h2 class="visually-hidden">
           Контакты
         </h2>
-        <address class="footer-contacts-address">
-          <a class="footer-contacts-address-phone" href="tel:+78128121212">
+        <address class="contacts-address">
+          <a class="contacts-phone" href="tel:+78128121212">
             +7 (812) 812-12-12
           </a>
         </address>
+        <p class="visually-hidden">Сайт разработан
+          <a class="htmlacademy-link" https://htmlacademy.ru/">
+            .html academy
+            <img class="htmlacademy-logo" src="images/html-academy.png" alt="Логотип разработчика">
+          </a>
+        </p>
       </section>
     </footer>
   </body>
